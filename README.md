@@ -190,6 +190,15 @@ output/
 
 ![FUA-YELLOW-VERTICAL annotated word](output/annotated/FUA-YELLOW-VERTICAL_annotated_word.png)
 
+### Input vs Output Comparison
+
+| Input | Annotated Output |
+|:---:|:---:|
+| ![Input](images/FUA-YELLOW-VERTICAL.jpg) | ![Output](output/annotated/FUA-YELLOW-VERTICAL_annotated_word.png) |
+| `images/FUA-YELLOW-VERTICAL.jpg` | `output/annotated/FUA-YELLOW-VERTICAL_annotated_word.png` |
+
+---
+
 ### Bounding-box color legend
 
 | Color | Confidence |
