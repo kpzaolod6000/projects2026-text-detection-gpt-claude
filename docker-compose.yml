@@ -1,0 +1,15 @@
+services:
+  extractor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime
+    image: text-extractor:latest
+    env_file:
+      - .env
+    volumes:
+      - ./images:/app/images
+      - ./output:/app/output
+    # Pass arguments at runtime:
+    #   docker compose run --rm extractor --api both --input images/
+    #   docker compose run --rm extractor --api chatgpt --input images/scan.png
